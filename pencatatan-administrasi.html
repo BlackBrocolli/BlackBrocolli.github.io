@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Pencatatan Jenis Biaya</title>
+	<link rel="stylesheet" type="text/css" href="css/style-form-pengajuan.css">
+</head>
+<body class="normal-height">
+	<nav>
+		<div class="fixed">
+			<div class="line"></div>
+			<div class="profil">
+				<img src="img/profil.png">
+				<h5>Rudi Arif Santoso</h5>
+			</div>
+			<a href="dashboard.html">
+				<div class="tabs">
+					<div class="nonactive"></div>
+					<h4>Dashboard</h4>
+				</div>
+			</a>
+			<a href="pengajuan.html">
+				<div class="tabs now">
+					<div class="active"></div>
+					<h4>Form Pengajuan</h4>
+				</div>
+			</a>
+			<a href="sparepart.html">
+				<div class="tabs">
+					<div class="nonactive"></div>
+					<h4>Master Sparepart</h4>
+				</div>
+			</a>
+			<a href="index.html" class="logout">
+				<div class="tabs">
+					<div class="nonactive"></div>
+					<h4>Logout!</h4>
+				</div>
+			</a>
+		</div>
+	</nav>
+	<section>
+		<header></header>
+		<article class="form-pengajuan">
+			<div><h4>Pencatatan Jenis Biaya</h4></div>
+
+			<div class="form-control">
+				<div class="subjudul">
+					<div class="tab center active-tab">
+						<h4>Administrasi</h4>
+					</div>
+					<a href="pencatatan-maintenance.html"><div class="tab center">
+						<h4>Maintenance</h4>
+					</div></a>
+					<a href="pencatatan-expense.html"><div class="tab center">
+						<h4>Expense</h4>
+					</div></a>
+				</div>
+
+				<div class="left-detail">
+					<div class="label-form">Nomor STNK Kendaraan</div>
+					<select>
+						<option></option>
+					</select>
+				</div>
+				<div class="right-detail">
+					<div class="label-form">Tanggal Transaksi</div>
+					<input type="date" name="" class="date">
+					<a href="pencatatan-administrasi-input.html"><div class="btn-input center">Input Data</div></a>
+				</div>
+			</div>
+			
+
+			<div class="btn-submit center disable-color">Submit</div>
+		</article>
+	</section>
+</body>
+</html>

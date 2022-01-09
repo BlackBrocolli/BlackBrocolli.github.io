@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Pencatatan Jenis Biaya</title>
+	<link rel="stylesheet" type="text/css" href="css/style-form-pengajuan.css">
+</head>
+<body class="normal-height">
+	<nav>
+		<div class="fixed">
+			<div class="line"></div>
+			<div class="profil">
+				<img src="img/profil.png">
+				<h5>Rudi Arif Santoso</h5>
+			</div>
+			<a href="dashboard.html">
+				<div class="tabs">
+					<div class="nonactive"></div>
+					<h4>Dashboard</h4>
+				</div>
+			</a>
+			<a href="pengajuan.html">
+				<div class="tabs now">
+					<div class="active"></div>
+					<h4>Form Pengajuan</h4>
+				</div>
+			</a>
+			<a href="sparepart.html">
+				<div class="tabs">
+					<div class="nonactive"></div>
+					<h4>Master Sparepart</h4>
+				</div>
+			</a>
+			<a href="index.html" class="logout">
+				<div class="tabs">
+					<div class="nonactive"></div>
+					<h4>Logout!</h4>
+				</div>
+			</a>
+		</div>
+	</nav>
+	<section>
+		<header></header>
+		<article class="form-pengajuan">
+			<div><h4>Pencatatan Jenis Biaya</h4></div>
+
+			<div class="form-control">
+				<div class="subjudul">
+					<div class="tab center active-tab">
+						<h4>Administrasi</h4>
+					</div>
+					<a href="pencatatan-maintenance.html"><div class="tab center">
+						<h4>Maintenance</h4>
+					</div></a>
+					<a href="pencatatan-expense.html"><div class="tab center">
+						<h4>Expense</h4>
+					</div></a>
+				</div>
+
+				<div class="left-detail">
+					<div class="label-form">Nomor STNK Kendaraan</div>
+					<select class="bacol-blue-disable data-input">
+						<option>N 9985 UE</option>
+					</select>
+				</div>
+				<div class="right-detail">
+					<div class="label-form">Tanggal Transaksi</div>
+					<input type="date" name="" class="date bacol-blue-disable data-input" value="2021-10-24">
+				</div>
+
+				<div class="subjudul border-top px"><h4>CATATAN PENGELUARAN ADMINISTRASI</h4></div>
+				<div class="input1">Pengeluaran 1</div>
+				<div class="left-detail">
+					<div class="label-form">Jenis Pengeluaran</div>
+					<select>
+						<option></option>
+					</select>
+				</div>
+				<div class="right-detail">
+					<div class="label-form">Total Biaya</div>
+					<input type="text" name="">
+				</div>
+				<div class="input1">Pengeluaran 2</div>
+				<div class="left-detail">
+					<div class="label-form">Jenis Pengeluaran</div>
+					<select>
+						<option></option>
+					</select>
+				</div>
+				<div class="right-detail">
+					<div class="label-form">Total Biaya</div>
+					<input type="text" name="">
+				</div>
+				<div class="btn-tambah center">Tambah Data</div>
+			</div>
+
+			<!-- <a href="pengajuan.html"><div class="btn-submit center">Submit</div></a> -->
+		</article>
+	</section>
+	<div class="darken">
+		<div class="feedback-container center">
+			<img src="img/checklist.png">
+			<h3>Data telah berhasil di Submit</h3>
+			<a href="pengajuan.html"><div class="ok-btn center">OK</div></a>
+		</div>
+	</div>
+</body>
+</html>
